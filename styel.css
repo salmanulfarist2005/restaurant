@@ -1,0 +1,98 @@
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+}
+
+.nav-flex-row li a {
+    font-family: 'Big Shoulders Text', cursive;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+
+.section-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    padding-top: 10vh;
+    color: white;
+    font-size: 50px;
+}
+
+.section-1 h1 {
+    font-size: 65px;
+}
+
+.section-1 {
+    background-image: url(image/petr-sevcovic-qE1jxYXiwOA-unsplash.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+
+}
+
+.section-item-1 {
+    font-family: 'Big Shoulders Text', cursive;
+    padding: 3% 20% 3% 20%;
+    font-size: 27px;
+}
+
+.section-item-1 h3 {
+    text-align: center;
+    font-size: 35px;
+
+}
+
+.section-item-1 p {
+    /* margin-left: 50px; */
+
+}
+
+.section-item-button {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main-1{
+    justify-content: space-around;
+    padding: 5%;
+}
+@media screen and (max-width:400px) {
+.section-item h1 {
+ font-size: 40px;  
+  
+
+}
+.section-item-1{
+    text-align: center;
+    font-size:15px;
+}
+.section-item-1 h3{
+    font-size: 18px;
+}
+    
+}
+@media screen and (max-width:800px) {
+
+.main-1{
+    flex-direction: column;
+}
+
+}
